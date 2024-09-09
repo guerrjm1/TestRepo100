@@ -2,11 +2,9 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-
-#This is for me to see if I did  it correct
-
-
 # Sample data: list of books
+
+# New Stuff Here 
 books = [
     {"id": 1, "title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "published_date": "1925-04-10"},
     {"id": 2, "title": "To Kill a Mockingbird", "author": "Harper Lee", "published_date": "1960-07-11"},
